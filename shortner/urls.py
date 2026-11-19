@@ -7,3 +7,4 @@ router.register('shortner',views.ShortUrlViewset,basename='shortner')
 urlpatterns = [
     path('',include(router.urls))
 ]
+
