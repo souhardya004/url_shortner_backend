@@ -9,4 +9,4 @@ class ShortUrl(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return str(self.shortcode)
+        return str(self.shortcode) 
